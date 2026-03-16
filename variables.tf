@@ -39,6 +39,7 @@ variable "config_bucket_name" {
 variable "password" {
   description = "Password for web frontend"
   type        = string
+  sensitive   = true
 }
 
 variable "letsencrypt_email" {
