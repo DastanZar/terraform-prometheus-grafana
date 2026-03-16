@@ -1,0 +1,11 @@
+hostname_prometheus     = "prometheus.example.com"
+hostname_alertmanager   = "alertmanager.example.com"
+hostname_grafana        = "grafana.example.com"
+config_bucket_name      = "my-monitoring-config-bucket"
+password                = "secure-password-here"
+letsencrypt_email       = "admin@example.com"
+instance_type_prometheus    = "t2.nano"
+instance_type_alertmanager  = "t2.nano"
+instance_type_grafana       = "t2.nano"
+key_name                = "my-ec2-key-pair"
+allow_session_manager   = false
